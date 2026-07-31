@@ -1,33 +1,36 @@
 ---
 title: 'Experience'
-date: 2023-10-24
+date: 2026-07-30
 type: landing
 
 design:
   spacing: '5rem'
 
-# Note: `username` refers to the user's folder name in `content/authors/`
-
-# Page sections
 sections:
   - block: resume-experience
     content:
       username: me
     design:
-      # Hugo date format
       date_format: 'January 2006'
-      # Education or Experience section first?
       is_education_first: false
   - block: resume-skills
     content:
-      title: Skills & Hobbies
+      title: Technical Expertise
       username: me
   - block: resume-awards
     content:
-      title: Awards
+      title: Research Funding & Computing
       username: me
-  - block: resume-languages
+  - block: markdown
     content:
-      title: Languages
-      username: me
+      title: 'Professional and University Service'
+      text: |-
+        - Reviewer, ACL Rolling Review (ARR)
+        - Reviewer, ACM Transactions on Internet Technology (TOIT)
+        - Judge, university student summits and project presentations, on multiple occasions
+        - Volunteer AI Team Leader, Auburn University — led weekly meetings introducing
+          undergraduate students to AI research topics and supported students developing
+          early research interests
+    design:
+      columns: '1'
 ---
