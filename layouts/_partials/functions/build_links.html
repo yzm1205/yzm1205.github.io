@@ -34,7 +34,7 @@
     {{ $typeF := $type }}
     {{ $urlF := $url }}
     {{ $keyF := printf "%s::%s" $typeF $urlF }}
-    {{ if not ($seen.Get "set" | index $keyF) }}
+    {{ if not (index ($seen.Get "set") $keyF) }}
       {{ $seen.SetInMap "set" $keyF true }}
       {{ $links = $links | append (dict
           "type" $typeF
@@ -56,7 +56,7 @@
       {{ $typeF := "project" }}
       {{ $urlF := .RelPermalink }}
       {{ $keyF := printf "%s::%s" $typeF $urlF }}
-      {{ if not ($seen.Get "set" | index $keyF) }}
+      {{ if not (index ($seen.Get "set") $keyF) }}
         {{ $seen.SetInMap "set" $keyF true }}
         {{ $links = $links | append (dict
             "type" $typeF
@@ -76,7 +76,7 @@
     {{ $typeF := "pdf" }}
     {{ $urlF := .RelPermalink }}
     {{ $keyF := printf "%s::%s" $typeF $urlF }}
-    {{ if not ($seen.Get "set" | index $keyF) }}
+    {{ if not (index ($seen.Get "set") $keyF) }}
       {{ $seen.SetInMap "set" $keyF true }}
       {{ $links = $links | append (dict
           "type" $typeF
@@ -92,7 +92,7 @@
   {{ $typeF := "bibtex" }}
   {{ $urlF := .RelPermalink }}
   {{ $keyF := printf "%s::%s" $typeF $urlF }}
-  {{ if not ($seen.Get "set" | index $keyF) }}
+  {{ if not (index ($seen.Get "set") $keyF) }}
     {{ $seen.SetInMap "set" $keyF true }}
     {{ $links = $links | append (dict
         "type" $typeF
@@ -113,7 +113,7 @@
         {{ $typeF := index $der "type" }}
         {{ $urlF := replace (index $der "url_template") "{id}" (printf "%v" $val) }}
         {{ $keyF := printf "%s::%s" $typeF $urlF }}
-        {{ if not ($seen.Get "set" | index $keyF) }}
+        {{ if not (index ($seen.Get "set") $keyF) }}
           {{ $seen.SetInMap "set" $keyF true }}
           {{ $links = $links | append (dict
               "type" $typeF
