@@ -1,13 +1,15 @@
 <style>
-  /* Wider text columns than the stock 3xl */
-  .max-w-3xl { max-width: 56rem !important; }
-  .max-w-4xl { max-width: 60rem !important; }
+  /* Consistent content width across every page */
+  :root { --om-content-width: 75rem; }
+  .max-w-2xl, .max-w-3xl, .max-w-4xl, .max-w-5xl { max-width: var(--om-content-width) !important; }
+  .prose { max-width: var(--om-content-width) !important; }
+  .bio-text { max-width: var(--om-content-width) !important; }
 
   /* Home: stack the biography block so Education / Interests sit centered below the photo */
   @media (min-width: 768px) {
     .resume-biography .md\:grid-cols-12 { grid-template-columns: minmax(0, 1fr) !important; }
     .resume-biography .md\:col-span-4,
     .resume-biography .md\:col-span-8 { grid-column: auto !important; }
-    .resume-biography .md\:col-span-8 { max-width: 56rem; margin-left: auto; margin-right: auto; width: 100%; }
+    .resume-biography .md\:col-span-8 { max-width: var(--om-content-width); margin-left: auto; margin-right: auto; width: 100%; }
   }
 </style>
