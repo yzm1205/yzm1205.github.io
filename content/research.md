@@ -8,11 +8,15 @@ sections:
     content:
       title: 'Research'
       text: |-
-        I study how language models and AI systems should be evaluated, selected, and deployed
-        when aggregate benchmark scores do not fully capture semantic behavior, user requirements,
-        or deployment constraints. My work combines natural language processing, model evaluation,
+        I study how language models and AI systems should be evaluated, selected, and deployed when
+        aggregate benchmark scores do not fully capture semantic behavior, user requirements, or
+        deployment constraints. My work combines natural language processing, model evaluation,
         scalable inference, and agentic systems to develop reliable and reproducible methods for
         matching AI models to real-world tasks.
+
+        Current directions include reliable capability and alignment evaluation, resource-aware
+        model selection and routing, evaluation of multi-step and agentic systems, and efficient
+        multi-GPU inference.
     design:
       columns: '1'
   - block: collection

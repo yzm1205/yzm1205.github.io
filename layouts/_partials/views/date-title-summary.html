@@ -1,0 +1,17 @@
+{{/* LOCAL OVERRIDE: compact news row — date | venue chip + title */}}
+{{ $item := .item }}
+{{ $displayDate := $item.Params.event_start | default $item.Date }}
+{{ $title := $item.Title }}
+{{ $venue := "" }}
+{{ if strings.Contains $title ": " }}
+  {{ $idx := 0 }}
+  {{ $parts := split $title ": " }}
+  {{ $venue = index $parts 0 }}
+  {{ $title = strings.TrimPrefix (printf "%s: " $venue) $item.Title }}
+{{ end }}
+<article style="display:grid;grid-template-columns:7.5rem 1fr;gap:0 1.5rem;padding:0.6rem 0;border-top:1px solid rgba(120,130,150,0.18);align-items:baseline">
+  <time style="font-size:0.8125rem;letter-spacing:0.04em;text-transform:uppercase;opacity:0.6" datetime="{{ time.Format "2006-01-02" $displayDate }}">{{ time.Format "Jan 2006" $displayDate }}</time>
+  <h3 style="margin:0;font-size:1.0625rem;font-weight:600;line-height:1.4">
+    {{ with $venue }}<span style="display:inline-block;background:#e3edfb;color:#1c3f6e;font-size:0.8125rem;font-weight:600;padding:0.0625rem 0.5rem;border-radius:0.25rem;margin-right:0.375rem;vertical-align:0.05em">{{ . }}</span>{{ end }}<a href="{{ $item.RelPermalink }}" style="text-decoration:none;color:inherit">{{ $title }}</a>
+  </h3>
+</article>

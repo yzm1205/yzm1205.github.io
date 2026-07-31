@@ -1,12 +1,27 @@
 ---
 title: Publications
 cms_exclude: true
+type: landing
 
-# View.
-view: citation
-
-# Optional header image (relative to `static/media/` folder).
-banner:
-  caption: ''
-  image: ''
+sections:
+  - block: collection
+    id: peer-reviewed
+    content:
+      title: Peer-Reviewed Publications
+      text: ''
+      filters:
+        folders:
+          - publications
+    design:
+      view: citation
+  - block: collection
+    id: preprints
+    content:
+      title: Preprints (arXiv)
+      text: ''
+      filters:
+        folders:
+          - preprints
+    design:
+      view: citation
 ---

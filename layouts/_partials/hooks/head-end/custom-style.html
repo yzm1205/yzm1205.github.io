@@ -1,0 +1,13 @@
+<style>
+  /* Wider text columns than the stock 3xl */
+  .max-w-3xl { max-width: 56rem !important; }
+  .max-w-4xl { max-width: 60rem !important; }
+
+  /* Home: stack the biography block so Education / Interests sit centered below the photo */
+  @media (min-width: 768px) {
+    .resume-biography .md\:grid-cols-12 { grid-template-columns: minmax(0, 1fr) !important; }
+    .resume-biography .md\:col-span-4,
+    .resume-biography .md\:col-span-8 { grid-column: auto !important; }
+    .resume-biography .md\:col-span-8 { max-width: 56rem; margin-left: auto; margin-right: auto; width: 100%; }
+  }
+</style>
