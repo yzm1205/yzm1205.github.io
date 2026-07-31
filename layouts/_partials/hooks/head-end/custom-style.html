@@ -1,9 +1,14 @@
 <style>
   /* Consistent content width across every page */
   :root { --om-content-width: 75rem; }
-  .max-w-2xl, .max-w-3xl, .max-w-4xl, .max-w-5xl { max-width: var(--om-content-width) !important; }
-  .prose { max-width: var(--om-content-width) !important; }
-  .bio-text { max-width: var(--om-content-width) !important; }
+  .max-w-2xl, .max-w-3xl, .max-w-4xl, .max-w-5xl,
+  .max-w-prose, .max-w-screen-sm, .max-w-screen-md, .max-w-screen-lg,
+  .prose, .bio-text { max-width: var(--om-content-width) !important; }
+
+  /* Tighter gaps between stacked collection blocks */
+  .mt-16, .sm\:mt-20 { margin-top: 1.5rem !important; }
+  #news, #peer-reviewed, #preprints, #research-software { padding-top: 0 !important; padding-bottom: 0 !important; }
+  #news > *, #peer-reviewed > *, #preprints > * { padding-top: 0 !important; }
 
   /* Home: stack the biography block so Education / Interests sit centered below the photo */
   @media (min-width: 768px) {

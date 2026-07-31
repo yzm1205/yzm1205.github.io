@@ -17,8 +17,8 @@ bio: |
   selected, and deployed when aggregate benchmark scores do not capture semantic
   behavior, user requirements, or deployment constraints. I completed my Ph.D. in
   Computer Science and Software Engineering at Auburn University in 2025, advised by
-  [Sathyanarayanan N. Aakur](https://saakur.github.io/) and co-advised by
-  [Shubhra Kanti (Santu) Karmaker](https://karmake2.github.io/), with a dissertation
+  [Dr. Sathyanarayanan N. Aakur](https://saakur.github.io/) and co-advised by
+  [Dr. Shubhra Kanti (Santu) Karmaker](https://karmake2.github.io/), with a dissertation
   on evaluating semantic and contextual alignment in language models. My current work
   combines model evaluation, resource-aware model selection, and scalable inference
   into reproducible methods for matching AI models to real-world tasks.
@@ -59,8 +59,8 @@ education:
     end: 2025-12-31
     summary: |
       Dissertation: *Evaluating Semantic and Contextual Alignment in Language Models*.
-      Advisor: [Sathyanarayanan N. Aakur](https://saakur.github.io/).
-      Co-advisor: [Shubhra Kanti Karmaker](https://karmake2.github.io/). GPA 3.77/4.00.
+      Advisor: [Dr. Sathyanarayanan N. Aakur](https://saakur.github.io/).
+      Co-advisor: [Dr. Shubhra Kanti Karmaker](https://karmake2.github.io/). GPA 3.77/4.00.
   - degree: M.S. Computer Science and Software Engineering
     institution: Auburn University
     year: 'Jan 2020 – May 2022'
