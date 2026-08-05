@@ -31,23 +31,35 @@ sections:
     content:
       title: 'Teaching Assistantship Record'
       text: |-
-        Teaching assistant appointments at Auburn University, most recent first.
+        Teaching assistant appointments at Auburn University, Department of Computer Science and
+        Software Engineering, most recent first.
 
-        | Term | Courses |
-        | --- | --- |
-        | Fall 2025 | Python Programming (COMP-1220-001) · MATLAB Programming (MATLAB Programming (COMP-1230-001)) |
-        | Spring 2025 | Python Programming (COMP-1220-001) · MATLAB Programming (MATLAB Programming (COMP-1230-001)) |
-        | Fall 2024 | MATLAB Programming (COMP-1230-001) |
-        | Spring 2024 | Python Programming (COMP-1220-001) · MATLAB Programming (MATLAB Programming (COMP-1230-001), COMP-1230-010) |
-        | Fall 2023 | Python Programming (COMP-1220-001) · MATLAB Programming (MATLAB Programming (COMP-1230-001)) |
-        | Summer 2023 | Database I (CPSC-5120-AO1) · Introduction to Computer Graphics (CPSC-4970-AO1) |
-        | Spring 2023 | Fundamentals of Computing II (COMP-2210-001) |
-        | Fall 2022 | Fundamentals of Computing II (COMP-2210-001) |
-        | Summer 2022 | Algorithms II (CPSC-3280-AO1) · Operating Systems (CPSC-3330-AO1) |
-        | Spring 2022 | Fundamentals of Computing II (COMP-2210-001) |
-        | Fall 2021 | Assembly Programming (CPSC-3300-AO2) · Computer Architecture (CPSC-3320-AO1) |
-        | Spring 2021 | Algorithms I (CPSC-3273-AO1) · Algorithms II (CPSC-3283-AO2) · Special Topics: Quantum Computing (CPSC-4973-AO2) |
-        | Fall 2020 | Algorithms I (CPSC-3273-AO1) · Algorithms II (CPSC-3283-AO2) · Special Topics: Computer Games and Development (CPSC-4973-AO1) |
+        | Term | Course code | Course | Level | Responsibilities |
+        | --- | --- | --- | --- | --- |
+        | Fall 2025 | COMP-1220-001 | Python Programming | Undergraduate | Led laboratory sections; graded work; office hours |
+        | Fall 2025 | COMP-1230-001 | MATLAB Programming | Undergraduate | Led laboratory sections; graded work; office hours |
+        | Spring 2025 | COMP-1220-001 | Python Programming | Undergraduate | Led laboratory sections; graded work; office hours |
+        | Spring 2025 | COMP-1230-001 | MATLAB Programming | Undergraduate | Led laboratory sections; graded work; office hours |
+        | Fall 2024 | COMP-1230-001 | MATLAB Programming | Undergraduate | Led laboratory sections; graded work; office hours |
+        | Spring 2024 | COMP-1220-001 | Python Programming | Undergraduate | Led laboratory sections; graded work; office hours |
+        | Spring 2024 | COMP-1230-001, -010 | MATLAB Programming | Undergraduate | Led two laboratory sections; graded work; office hours |
+        | Fall 2023 | COMP-1220-001 | Python Programming | Undergraduate | Led laboratory sections; graded work; office hours |
+        | Fall 2023 | COMP-1230-001 | MATLAB Programming | Undergraduate | Led laboratory sections; graded work; office hours |
+        | Summer 2023 | CPSC-5120-AO1 | Database I | Graduate | Graded assignments and examinations; office hours |
+        | Summer 2023 | CPSC-4970-AO1 | Introduction to Computer Graphics | Undergraduate | Graded assignments and examinations; office hours |
+        | Spring 2023 | COMP-2210-001 | Fundamentals of Computing II | Undergraduate | Led data structures and algorithms laboratory sections |
+        | Fall 2022 | COMP-2210-001 | Fundamentals of Computing II | Undergraduate | Graded assignments and examinations; office hours |
+        | Summer 2022 | CPSC-3280-AO1 | Algorithms II | Undergraduate | Graded assignments and examinations; office hours |
+        | Summer 2022 | CPSC-3330-AO1 | Operating Systems | Undergraduate | Graded assignments and examinations; office hours |
+        | Spring 2022 | COMP-2210-001 | Fundamentals of Computing II | Undergraduate | Led data structures and algorithms laboratory sections |
+        | Fall 2021 | CPSC-3300-AO2 | Assembly Programming | Undergraduate | Graded assignments and examinations; office hours |
+        | Fall 2021 | CPSC-3320-AO1 | Computer Architecture | Undergraduate | Graded assignments and examinations; office hours |
+        | Spring 2021 | CPSC-3273-AO1 | Algorithms I | Undergraduate | Graded assignments and examinations; office hours |
+        | Spring 2021 | CPSC-3283-AO2 | Algorithms II | Undergraduate | Graded assignments and examinations; office hours |
+        | Spring 2021 | CPSC-4973-AO2 | Special Topics: Quantum Computing | Undergraduate | Designed assessments and grading criteria; evaluated student work |
+        | Fall 2020 | CPSC-3273-AO1 | Algorithms I | Undergraduate | Graded assignments and examinations; office hours |
+        | Fall 2020 | CPSC-3283-AO2 | Algorithms II | Undergraduate | Graded assignments and examinations; office hours |
+        | Fall 2020 | CPSC-4973-AO1 | Special Topics: Computer Games and Development | Undergraduate | Designed assessments and grading criteria; evaluated student work |
     design:
       columns: '1'
   - block: markdown
@@ -86,9 +98,11 @@ sections:
       title: 'Courses Prepared to Teach'
       text: |-
         Artificial Intelligence · Machine Learning · Natural Language Processing ·
-        Data Structures and Algorithms · Python Programming · Applied Deep Learning ·
-        Large Language Model Systems · Evaluation and Responsible Deployment of
-        Generative AI · AI Agents and Tool-Using Systems
+        Data Structures and Algorithms · Python Programming · MATLAB Programming ·
+        Fundamentals of Computing I & II · Computer Architecture · Assembly Programming ·
+        Operating Systems · Database Systems · Applied Deep Learning ·
+        Large Language Model Systems · Evaluation and Responsible Deployment of Generative AI ·
+        AI Agents and Tool-Using Systems
     design:
       columns: '1'
 ---

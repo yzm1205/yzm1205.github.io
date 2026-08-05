@@ -17,4 +17,23 @@
     .resume-biography .md\:col-span-8 { grid-column: auto !important; }
     .resume-biography .md\:col-span-8 { max-width: var(--om-content-width); margin-left: auto; margin-right: auto; width: 100%; }
   }
+  /* Markdown tables (Teaching Assistantship Record) */
+  .prose table, article table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  .prose thead th, article thead th {
+    text-align: left; padding: 0.5rem 0.75rem; border-bottom: 2px solid #16293f;
+    font-size: 0.8125rem; letter-spacing: 0.06em; text-transform: uppercase;
+    color: #16293f; font-weight: 700; background: transparent;
+  }
+  .prose tbody td, article tbody td {
+    padding: 0.55rem 0.75rem; border-bottom: 1px solid #e5e7eb;
+    vertical-align: top; font-size: 0.9375rem;
+  }
+  .prose tbody tr td:first-child, article tbody tr td:first-child {
+    white-space: nowrap; font-weight: 600; color: #16293f;
+  }
+  .prose tbody td:nth-child(2), article tbody td:nth-child(2) { white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .prose tbody tr:nth-child(even), article tbody tr:nth-child(even) { background: transparent; }
+  .dark .prose thead th, .dark article thead th { color: #cfe0f7; border-bottom-color: #3a4d6e; }
+  .dark .prose tbody td, .dark article tbody td { border-bottom-color: #24304a; }
+  .dark .prose tbody tr td:first-child, .dark article tbody tr td:first-child { color: #cfe0f7; }
 </style>
