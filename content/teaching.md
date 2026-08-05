@@ -29,6 +29,29 @@ sections:
       columns: '1'
   - block: markdown
     content:
+      title: 'Teaching Assistantship Record'
+      text: |-
+        Teaching assistant appointments at Auburn University, most recent first.
+
+        | Term | Courses |
+        | --- | --- |
+        | Fall 2025 | Python Programming (COMP-1220-001) · MATLAB Programming (MATLAB Programming (COMP-1230-001)) |
+        | Spring 2025 | Python Programming (COMP-1220-001) · MATLAB Programming (MATLAB Programming (COMP-1230-001)) |
+        | Fall 2024 | MATLAB Programming (COMP-1230-001) |
+        | Spring 2024 | Python Programming (COMP-1220-001) · MATLAB Programming (MATLAB Programming (COMP-1230-001), COMP-1230-010) |
+        | Fall 2023 | Python Programming (COMP-1220-001) · MATLAB Programming (MATLAB Programming (COMP-1230-001)) |
+        | Summer 2023 | Database I (CPSC-5120-AO1) · Introduction to Computer Graphics (CPSC-4970-AO1) |
+        | Spring 2023 | Fundamentals of Computing II (COMP-2210-001) |
+        | Fall 2022 | Fundamentals of Computing II (COMP-2210-001) |
+        | Summer 2022 | Algorithms II (CPSC-3280-AO1) · Operating Systems (CPSC-3330-AO1) |
+        | Spring 2022 | Fundamentals of Computing II (COMP-2210-001) |
+        | Fall 2021 | Assembly Programming (CPSC-3300-AO2) · Computer Architecture (CPSC-3320-AO1) |
+        | Spring 2021 | Algorithms I (CPSC-3273-AO1) · Algorithms II (CPSC-3283-AO2) · Special Topics: Quantum Computing (CPSC-4973-AO2) |
+        | Fall 2020 | Algorithms I (CPSC-3273-AO1) · Algorithms II (CPSC-3283-AO2) · Special Topics: Computer Games and Development (CPSC-4973-AO1) |
+    design:
+      columns: '1'
+  - block: markdown
+    content:
       title: 'Invited Talks and Guest Lectures'
       text: |-
         - Guest lecture, Machine Learning course, University of Central Florida — May 2026.
