@@ -19,6 +19,8 @@ sections:
         multi-GPU inference.
     design:
       columns: '1'
+      spacing:
+        padding: ['4rem', 0, '4rem', 0]   # top, right, bottom, left
   - block: collection
     id: research-software
     content:
@@ -28,6 +30,7 @@ sections:
         folders:
           - projects
     design:
+    
       view: article-grid
       fill_image: false
       columns: 3

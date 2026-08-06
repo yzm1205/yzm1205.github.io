@@ -27,6 +27,8 @@ sections:
           Fall 2020; graded assignments and held office hours.
     design:
       columns: '1'
+      spacing:
+        padding: ['2rem', 0, 0, 0]   # top, right, bottom, left
   - block: markdown
     content:
       title: 'Teaching Assistantship Record'
@@ -62,6 +64,8 @@ sections:
         | Fall 2020 | CPSC-4973-AO1 | Special Topics: Computer Games and Development | Undergraduate | Designed assessments and grading criteria; evaluated student work |
     design:
       columns: '1'
+      spacing:
+        padding: ['2rem', 0, 0, 0]   # top, right, bottom, left
   - block: markdown
     content:
       title: 'Invited Talks and Guest Lectures'
@@ -75,6 +79,8 @@ sections:
           transportation-related programs.
     design:
       columns: '1'
+      spacing:
+        padding: ['2rem', 0, 0, 0]   # top, right, bottom, left
   - block: markdown
     content:
       title: 'Student Mentoring and Academic Leadership'
@@ -93,6 +99,8 @@ sections:
           research interests.
     design:
       columns: '1'
+      spacing:
+        padding: ['2rem', 0, 0, 0]   # top, right, bottom, left
   - block: markdown
     content:
       title: 'Courses Prepared to Teach'
@@ -106,3 +114,9 @@ sections:
     design:
       columns: '1'
 ---
+```shell
+export PATH="$PWD/node_modules/.bin:$PATH"
+hugo server -D
+export PATH="$PWD/node_modules/.bin:$PATH"
+hugo server -D
+```

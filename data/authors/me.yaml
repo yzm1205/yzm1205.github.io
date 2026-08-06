@@ -150,10 +150,12 @@ skills:
       - label: Weights & Biases, Streamlit, Pandas, NumPy
 
 awards:
-  - title: NSF-supported GPU compute allocation
-    awarder: National Science Foundation
-    date: "2026-01-01"
+  - title: NSF ACCESS Discover Allocation — NCSA Delta
+    url: https://allocations.access-ci.org/
+    awarder: National Science Foundation (ACCESS)
+    date: "2026-04-08"
     summary: |
-      Access to GPU resources valued at approximately \$600,000 for large-scale
-      language-model evaluation and inference research.
+      Principal Investigator. Competitively awarded GPU allocation on NCSA Delta,
+      valued at approximately \$750,000, supporting large-scale language-model
+      evaluation and multi-GPU inference research. Award period April 2026 – April 2027.
     icon: hero/cpu-chip

@@ -1,10 +1,10 @@
 ---
-title: "NSF: Grateful to have received approximately $600,000 worth of GPU compute credits in support of my research"
-date: 2026-01-01
+title: "NSF ACCESS: Awarded a Discover-tier GPU allocation on NCSA Delta as Principal Investigator"
+date: 2026-04-08
 authors:
   - me
 tags: []
-summary: "The NSF-supported allocation provides roughly $600,000 in GPU credits for large-scale language-model evaluation and inference research."
+summary: "A competitively awarded NSF ACCESS Discover allocation on NCSA Delta, valued at approximately $750,000, supporting large-scale language-model evaluation and multi-GPU inference research."
 ---
 
-The NSF-supported allocation provides roughly $600,000 in GPU credits for large-scale language-model evaluation and inference research.
+Awarded a Discover-tier allocation on NCSA Delta through [NSF ACCESS](https://allocations.access-ci.org/) as Principal Investigator. The allocation, valued at approximately \$750,000 in GPU credits, runs from April 2026 to April 2027 and supports large-scale language-model evaluation and multi-GPU inference research.

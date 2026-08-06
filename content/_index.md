@@ -14,6 +14,8 @@ sections:
         education: ''
         interests: ''
     design:
+      spacing:
+        padding: ['2rem', 0, 0, 0]
       background:
         gradient_mesh:
           enable: true
@@ -22,6 +24,7 @@ sections:
       avatar:
         size: medium
         shape: circle
+    
   - block: collection
     id: news
     content:
