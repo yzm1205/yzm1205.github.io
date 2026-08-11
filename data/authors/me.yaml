@@ -155,7 +155,8 @@ awards:
     awarder: National Science Foundation (ACCESS)
     date: "2026-04-08"
     summary: |
-      Principal Investigator. Competitively awarded GPU allocation on NCSA Delta,
-      valued at approximately \$750,000, supporting large-scale language-model
-      evaluation and multi-GPU inference research. Award period April 2026 – April 2027.
+      Principal Investigator. Competitively awarded NSF ACCESS Discover-tier allocation
+      of \textbf{750,000 compute credits} on NCSA DeltaAI, supporting large-scale
+      language model evaluation and multi-GPU inference research.
+      Award period: April 2026 -- April 2027.
     icon: hero/cpu-chip
